@@ -1,0 +1,199 @@
+/*--- variable declarations--*/
+:root {
+    --jumbotron-padding : 0;
+    --jumbotron-margin : 0;
+    --bg-color: rgb(238, 238, 122);
+}
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+} 
+.offset::before {
+    content: ' ';
+    display: block;
+    height: 3rem;
+    margin-top: -3rem;
+}
+/*--- Navbar ---*/
+.navbar {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+}
+.navbar-nav li {
+    padding-right: .7rem;
+}
+/*--- Carousel Slider ---*/
+.carousel-item {
+    background-size: cover;
+    height: 100vh;
+}
+.carousel-caption {
+    position: absolute;
+    top: 45%;
+}
+.carousel-caption h2 {
+    width:100%;
+    font-size: 2.3rem;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    text-shadow: .3rem .3rem .8rem black;
+    padding-bottom: 0.3rem;
+}
+.carousel-caption a {
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+}
+/*--- Health Section ---*/
+#healthSection .jumbotron {
+    position: relative;
+    padding : var(--jumbotron-padding);
+    margin :  var(--jumbotron-margin);
+    background-color: var(--bg-color);
+}
+.healthBox img{
+    position: relative;
+    max-width: 100%;
+    transition: transform .5s ease;
+}
+.htype {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} 
+.row.no-padding [class*=col-] {
+    padding: 0;
+}
+.healthBox img:hover {
+    transform: scale(1.1);
+    cursor: zoom-in;
+}
+.healthBox {
+    overflow: hidden;
+}
+.tedVideo {
+    padding-bottom: 49.25%;
+    padding-top: 2rem;
+    height: 0;
+}
+.tedVideo iframe {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+}
+/*--- Nutrition Section ---*/
+#nutritionSection .jumbotron {
+    padding : var(--jumbotron-padding);
+    margin :  var(--jumbotron-margin);
+    background-color: var(--bg-color);
+}
+#nutritionImg {
+  max-width: 100%;
+}
+/*--- Fitness Section ---*/
+#fitnessSection .cardSection{
+    background-color: black;
+}
+#fitnessSection .jumbotron {
+    padding : var(--jumbotron-padding);
+    margin :  var(--jumbotron-margin);
+    background-color: var(--bg-color);
+}
+#fitnessSection .card {
+     border: none;
+}
+.card-body {
+    background-color: black;
+    max-width: 100;
+}
+.card-img-top {
+    height: 40vh;
+}
+/*--- Style and Grooming ---*/
+#styleGroomingSection .styleSet {
+    background-image: url('../Images/bgStyle.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+figure img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+figure {
+    width: 100%;
+    overflow: hidden;
+}
+#styleGroomingSection .jumbotron {
+    padding : var(--jumbotron-padding);
+    margin :  var(--jumbotron-margin);
+    background-color: var(--bg-color);
+}
+#styleGroomingSection .gtype {
+    position: relative;
+    left: 40%;
+}
+/*--- Ask US ---*/
+#askUsSection .jumbotron {
+    padding : var(--jumbotron-padding);
+    margin :  var(--jumbotron-margin);
+    background-color: var(--bg-color);
+}
+#askUsSection label, input, button {
+    margin: 0.5rem;
+}
+/*--- About ---*/
+#aboutSection .jumbotron {
+    padding : var(--jumbotron-padding);
+    margin :  var(--jumbotron-margin);
+    background-color: var(--bg-color);
+}
+#aboutSection p {
+    font-size: 1.4rem;    
+    font-weight: 500;
+    color: black;
+}
+
+#aboutSection .info {
+    background-color: #e7f3fe;
+    border-left: 4px solid #2196F3;
+}
+#aboutSection .success {
+    background-color: #ddffdd;
+    border-left: 4px solid #4CAF50;
+}
+
+footer a img {
+    height: 7vh;
+    padding: 0 0.4rem 0;
+    transition: transform .5s ease;
+}
+footer a img:hover {
+    transform: scale(1.1);
+}
+hr.socket {
+    border-top: 0.1rem solid black;
+    width: 100%;
+}
+/*--- Media Queries ---*/
+
+@media (max-width: 770px) {
+    
+    .carousel-caption h2 {
+        width:100%;
+        font-size: 1.9rem;
+        letter-spacing: .025rem;
+        text-shadow: .1rem .1rem .4rem black;
+        padding-bottom: 0.15rem;
+    }
+    .carousel-caption a {
+        border-width: medium;
+        border-radius: 0;
+        font-size: 0.9rem;
+    }
+
+}

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>GetBetter</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Mens lifestyle information">
+  <meta name="keywords" content="mens,health,nutrition,fitness,grooming,dressing,haircut">
+  <meta name="author" content="Aditya Thorat">
+  <link rel="stylesheet" href="./CSS/reset.css" type="text/css">
+  <link rel="stylesheet" href="./CSS/index.css" type="text/css" />
+  <link rel="stylesheet" href="./CSS/fixed.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body data-spy="scroll" data-target="#collapseHomeNavbar">
+  <!--Page Wrapper start-->
+  <div id="wrapper">
+    <section id="homeSection">
+      <header class="header">
+        <!-- Navbar section start-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <a class="navbar-brand" href="index.html"><h3 class="text-success">GETBETTER</h3></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseHomeNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapseHomeNavbar">
+            <ul class="navbar-nav text-center ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#homeSection">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#healthSection">HEALTH</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nutritionSection">NUTRITION</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="#fitnessSection">FITNESS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#styleGroomingSection">STYLE & GROOMING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#askUsSection">ASK US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutSection">ABOUT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Navbar section end-->
+      </header>
+      <!-- Carousel section start-->
+      <div id="homeImageSlider" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="none" >
+        <ol class="carousel-indicators">
+          <li data-target="#homeImageSlider" data-slide-to="0" class="active"></li>
+          <li data-target="#homeImageSlider" data-slide-to="1"></li>
+          <li data-target="#homeImageSlider" data-slide-to="2"></li>
+        </ol>
+        <!-- Carousel Inner section start-->
+        <div class="carousel-inner text-uppercase" role="listbox">
+          <div class="carousel-item active" style="background-image: url('./Images/background/foods.jpg');">
+            <div class="carousel-caption">
+              <h2>Greatest Wealth is Health</h2>
+              <a class="btn btn-outline-success btn-lg" href="#healthSection">Get Healthy</a>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url('./Images/background/bgfitness.jpg');">
+            <div class="carousel-caption">
+              <h2>Respect your Body. It’s the only one you get.</h2>
+              <a class="btn btn-outline-light btn-lg" href="#fitnessSection">Be Strong</a>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url('./Images/background/grooming.jpg');">
+            <div class="carousel-caption">
+              <h2>Grooming is the secret of real elegance</h2>
+              <a class="btn btn-outline-info btn-lg" href="#styleGroomingSection">Suit Up</a>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel Inner section end-->
+        <a class="carousel-control-prev" href="#homeImageSlider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#homeImageSlider" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- Carousel section end-->
+    </section>
+
+    <!-- Health section -->
+    <section id="healthSection" class="offset">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="col-12">
+            <h1 class="text-center">HEALTH</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row no-padding">
+        <!-- Health box 1-->
+        <div class="col-sm-4">
+          <div class="healthBox">
+            <img src="./Images/mentalHealth1.jpg" alt="mental health">
+              <button type="button" class="btn btn-outline-warning btn-lg htype">
+                  <a href="https://www.medicalnewstoday.com/articles/154543.php" target="_blank">MENTAL</a>
+              </button>
+          </div>
+        </div>
+        <!-- Health box 2-->
+        <div class="col-sm-4">
+          <div class="healthBox">
+            <img src="./Images/physicalHealth4.jpg" alt="physical health">
+              <button type="button" class="btn btn-outline-warning btn-lg htype">
+                  <a href="https://www.medicalnewstoday.com/articles/160774.php" target="_blank">NUTRITION</a>
+              </button>
+          </div>
+        </div>
+        <!-- Health box 3-->
+        <div class="col-sm-4">
+          <div class="healthBox">
+            <img src="./Images/positiveAttitude.jpg" alt="positive Attitude">
+              <button type="button" class="btn btn-outline-warning btn-lg htype">
+                  <a href="https://www.heart.org/en/healthy-living/fitness/fitness-basics/why-is-physical-activity-so-important-for-health-and-wellbeing"  target="_blank">PHYSICAL</a>
+              </button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Ted Video 1-->
+        <div class="col-sm-4">
+          <div class="tedVideo">
+            <iframe src="https://www.youtube.com/embed/rkZl2gsLUp4"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <!-- Ted Video 2-->
+        <div class="col-sm-4">
+          <div class="tedVideo">
+            <iframe src="https://www.youtube.com/embed/awtmTJW9ic8"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <!-- Ted Video 3-->
+        <div class="col-sm-4">
+          <div class="tedVideo">
+            <iframe src="https://www.youtube.com/embed/BHY0FxzoKZE"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nutrition Data Section-->
+    <section id="nutritionSection" class="offset">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="col-12">
+            <h1 class="text-center">NUTRITION</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <div class="container nutritionDetails">
+            <div class="alert alert-info" role="alert">
+              <p><strong>What is Nutrition ? </strong><br> Nutrition, nourishment, or aliment, is the supply of materials - food - required by organisms and cells to stay alive. 
+                In science and human medicine, nutrition is the science or practice of consuming and utilizing foods.
+              </p><br>
+              <strong>Facts on Nutrition</strong><ul>
+                <li>Human body requires seven major types of nutrients.</li>
+                <li>Not all nutrients provide energy but are still important, such as water and fiber.</li>
+                <li>Micronutrients are important but required in smaller amounts.</li>
+                <li>We require some nutrients regularly, and others less frequently.</li>
+                <li>Vitamins are essential organic compounds that human body cannot synthesize.</li>
+              </ul><br>
+              <p><strong>Types</strong><br> 
+                  <u>Macronutrients</u> : We need them in relatively large quantities. Macronutrients includes Carbohydrates, Proteins, Fats, Fiber and Water<br>
+                  <u>Micronutrients</u> : We need them in relatively small quantities. Micronutrients includes Minerals and Vitamins.</p>
+            </div>
+          </div>  
+      </div>
+      <div class="col-md-6 col-sm-6">
+          <div class="alert alert-warning" role="alert">
+            <h5>Mention the food item name in below given box to find its nutritional details (like apple/banana/curd/lemon etc.)</h5>
+            <input type="text" class="form-control" id="foodItem" placeholder="Apple"><br>
+            <button type="button" class="btn btn-outline-success" onclick="nutritionData()">SUBMIT</button><br><br>     
+            <h4 class="text-center"><strong>NUTRITION DETAILS</strong></h4>
+            <h4 class="text-success">Food Product : <span id="foodItemName"></span></h4>
+            <h4 class="text-success">Calories : <span id="calories"></span> </h4>
+            <h4 class="text-success">Fats : <span id="fats"></span></h4>
+            <h4 class="text-success">Serving Size : <span id="serveSize"></span></h4>
+            <h4 class="text-success">Brand Name : <span id="brandName"></span></h4>  
+            <button type="button" id="prevButton" class="btn btn-outline-success">PREVIOUS</button>   
+            <button type="button" id="nextButton" class="btn btn-outline-success">NEXT</button>     
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Fitness section -->
+    <section id="fitnessSection" class="offset">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="col-12">
+            <h1 class="text-center">FITNESS</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row cardSection">
+        <!-- Fitness card 1 -->
+        <div class="col-sm-4">
+          <div class="card border-dark">
+            <a href="https://www.health.harvard.edu/staying-healthy/strength-training-builds-more-than-muscles" target="_blank"><img class="card-img-top" src="./Images/fitnessCardImg1.jpg"  alt=" Muscular men image"></a>
+            <div class="card-body text-center">
+              <h3 class="text-warning">MUSCLES</h3>
+              <p class="text-warning">When you have a well developed body and you're confident, you see people bending your way, wanting
+                to be on your side, wanting to do things for you.
+              </p>
+              <h5 class="text-warning"> - Arnold Schwarzenegger</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Fitness Card 2 -->
+        <div class="col-sm-4">
+          <div class="card">
+            <a href="https://www.indiacelebrating.com/article/article-on-health-and-fitness/" target="_blank"><img class="card-img-top" src="./Images/fitnessCardImg2.jpg"  alt="Fitnes image"></a>
+            <div class="card-body text-center">
+              <h3 class="text-warning">FAT</h3>
+              <p class="text-warning">Physical fitness is not only one of the most important keys to a healthy body, it is the basis of
+                dynamic and creative intellectual activity.
+              </p>
+              <h5 class="text-warning">- John F. Kennedy</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Fitness Card 3 -->
+        <div class="col-sm-4">
+          <div class="card">
+            <a href="https://www.medicalnewstoday.com/articles/286745.php" target="_blank"><img class="card-img-top" src="./Images/yoga.jpg"  alt="yoga image"></a>
+            <div class="card-body text-center">
+              <h3 class="text-warning">YOGA</h3>
+              <p class="text-warning">The wisdom of Yoga transforms one from craving for freedom to recognition of unboundedness, from
+                limited ownership to oneness with the whole.
+              </p>
+              <h5 class="text-warning">- Sri Sri Ravi Shankhar</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Style & Grooming section -->
+    <section id="styleGroomingSection" class="offset">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="col-12">
+            <h1 class="text-center">STYLE & GROOMING</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center styleSet">
+        <!-- Style img 1-->
+        <div class="col-md-4 col-sm-4">
+          <figure class="figure">
+            <img src="Images/mensDressing2.jpg" alt="Dressing image" class="figure-img img-fluid rounded-circle">
+          </figure>
+          <button type="button" class="btn btn-success btn-md gtype">
+              <a href="https://www.fashionbeans.com/" target="_blank">DRESSING</a>
+          </button>
+        </div>
+        <!-- Style img 2-->
+        <div class="col-md-4 col-sm-4">
+          <figure class="figure">
+            <img src="Images/shoes.jpg" alt="Shoes image" class="figure-img img-fluid rounded-circle">
+          </figure>
+          <button type="button" class="btn btn-success btn-md gtype">
+              <a href="https://www.theshoesnobblog.com/tag/mens-shoes" target="_blank">SHOES</a>
+          </button>
+        </div>
+        <!-- Style img 3-->
+        <div class="col-md-4 col-sm-4">
+          <figure class="figure">
+            <img src="Images/beard1.jpg" alt="beard image" class="figure-img img-fluid rounded-circle">
+          </figure>
+          <button type="button" class="btn btn-success btn-md gtype">
+              <a href="https://www.menshairstyletrends.com/good-haircuts-for-men/" target="_blank">HAIRS</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ask US section -->
+    <section id="askUsSection" class="offset">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="col-12">
+            <h1 class="text-center">ASK US</h1>
+          </div>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <h3 class="text-success">Got a Question? Write it to US</h3>
+            <form id="contactForm" class="form-group" onsubmit="formValidation(); return false">
+              <label for="firstName"><b>ENTER YOUR NAME</b></label>
+              <input class="form-control" id="firstName" maxlength="15" placeholder="Yash" type="text" required />
+              <input class="form-control" id="lastName" maxlength="15" placeholder="Verma" type="text" required />
+              <label for="emailId"><b>ENTER YOUR EMAIL ID</b></label>
+              <input class="form-control" id="emailId" maxlength="30" placeholder="yverma@gmail.com" type="text"
+                required />
+              <label for="contactNumber"><b>ENTER YOUR CONTACT NUMBER</b></label>
+              <input class="form-control" id="contactNumber" maxlength="10" placeholder="8477562139" type="text"
+                required>
+              <label for="message"><b>WRITE YOUR MESSAGE</b></label>
+              <textarea class="form-control" id="message" placeholder="Is there any food nutritional chart available?" required></textarea><br>
+              <button id="submitButton" class="btn btn-outline-success" type="submit">SUBMIT</button>
+              <button class="btn btn-outline-danger" type="reset">RESET</button>
+            </form>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div>
+              <h3 id="displayVisitersMsg" class="text-success"> Visiter's Questions and Comments</h3>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="aboutSection" class="offset">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="col-12">
+            <h1 class="text-center">ABOUT</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-sm-6">
+          <p>GetBetter.com is a premier online destination for all mens who strive for living an amazing performance driven
+              life to the fullest. Our aim is to provide mens the essential tools or information to make a well informed decision
+              when it comes to aspects such as Health, Fitness and Grooming.Every Visiter or information seeker who 
+              visits our website will surely learn about the healthy ways of living and how to develope a charming personality.
+          </p> 
+        </div>
+          <div class="col-md-6 col-sm-6 text-center">
+            <div class="info">
+              <p><strong>VISIT US</strong><br>The Kensington Towers,<br> L.B.S Road, Powai, <br>Mumbai, Maharashtra 400076.</p>
+            </div>
+            <div class="success">
+             <p><strong>CALL / MAIL US</strong><br> 022 9879 6000 <br> 022 9879 6101 <br> info@getbetter.com</p>
+            </div>                  
+          </div>
+      </div>
+
+      <footer>
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-sm-10 text-center">
+            <h3 class="text-success">EXPLORE MORE</h3>
+            <a href="#"><img src="./Images/social-media/fb.svg" alt="Facebook"></a>
+            <a href="#"><img src="./Images/social-media/twitter.svg" alt="Twitter"></a>
+            <a href="#"><img src="./Images/social-media/snapchat.svg" alt="Snapchat"></a>
+            <a href="#"><img src="./Images/social-media/instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="./Images/social-media/pinterest.svg" alt="Pinterest"></a>
+          </div>
+          <hr class="socket">
+          <h5>COPYRIGHT &copy; GETBETTER.COM</h5>
+        </div>
+      </footer>
+    </section>
+  </div>
+  <!--Page Wrapper end-->
+
+  <noscript>JavaScript is not supported by your browser. Please enable it.</noscript>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="JS/index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
